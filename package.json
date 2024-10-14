@@ -1,0 +1,22 @@
+{
+  "name": "action-sigstore-test",
+  "version": "0.1.0",
+  "main": "build/worker/shim.mjs",
+  "scripts": {
+    "build": "wrangler deploy --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibmeu/action-sigstore-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thibmeu/action-sigstore-test/issues"
+  },
+  "homepage": "https://github.com/thibmeu/action-sigstore-test#readme",
+  "description": "",
+  "dependencies": {
+    "wrangler": "3.80.4"
+  }
+}
